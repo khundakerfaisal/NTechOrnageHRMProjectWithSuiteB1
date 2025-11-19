@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Regression suite">
+    <test name="Login With CLI">
+        <classes>
+            <class name="TestRunner.LoginWithCLI"/>
+        </classes>
+    </test>
+    <test name="Create User">
+        <classes>
+            <class name="TestRunner.PIMTestRunner"/>
+        </classes>
+    </test>
+    <test name="Login with json">
+        <classes>
+            <class name="TestRunner.LoginWithJson"/>
+        </classes>
+    </test>
+
+</suite>

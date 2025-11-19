@@ -1,0 +1,30 @@
+[
+  {
+    "Username": "Hahn",
+    "Password": "Aa@123456",
+    "ConfirmPassword": "Aa@123456"
+  },
+  {
+    "Username": "Dicki",
+    "Password": "Aa@123456",
+    "ConfirmPassword": "Aa@123456"
+  },
+  {
+    "Username": "Reilly",
+    "FirstName": "Johnnie",
+    "Password": "Aa@123456",
+    "ConfirmPassword": "Aa@123456"
+  },
+  {
+    "Username": "Lubowitz",
+    "FirstName": "Louis",
+    "Password": "Aa@123456",
+    "ConfirmPassword": "Aa@123456"
+  },
+  {
+    "Username": "Gutmann",
+    "FirstName": "Lorrine",
+    "Password": "Aa@123456",
+    "ConfirmPassword": "Aa@123456"
+  }
+]

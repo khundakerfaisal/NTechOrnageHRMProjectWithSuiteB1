@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","5080","Login with Valid credential","Regression suite","2025-11-19","passed","2025-11-19","TestRunner.PIMTestRunner","Create User","TestRunner.PIMTestRunner","doLoginWithValidCred"
+"","8778","Login With Json","Smoke suite","2025-11-19","passed","2025-11-19","TestRunner.LoginWithJson","Login with json","TestRunner.LoginWithJson","userLogin"
+"","8146","CLI Based Login","Smoke suite","2025-11-19","passed","2025-11-19","TestRunner.LoginWithCLI","Login With CLI","TestRunner.LoginWithCLI","loginWithCLI"
+"","21537","Create New User","Regression suite","2025-11-19","passed","2025-11-19","TestRunner.PIMTestRunner","Create User","TestRunner.PIMTestRunner","enterPimInfo"

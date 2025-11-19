@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"4d77e4b86525e0e10aeeffa1e7a7a975","name":"Regression suite","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}},{"uid":"8421495e0d946b6e082abef4f7d8d151","name":"Smoke suite","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}}]}

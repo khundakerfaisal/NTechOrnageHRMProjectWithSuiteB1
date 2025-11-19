@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Smoke suite">
+    <test name="Login With CLI">
+<!--        Suite Group start-->
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+<!--        suite group close-->
+        <classes>
+            <class name="TestRunner.LoginWithCLI"/>
+        </classes>
+    </test>
+    <test name="Login with json">
+<!--        Suite Group-->
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestRunner.LoginWithJson"/>
+        </classes>
+    </test>
+
+</suite>

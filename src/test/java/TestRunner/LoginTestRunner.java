@@ -7,14 +7,20 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
+import static Pages.LoginPage.node;
+
 public class LoginTestRunner extends Setup {
 
     @Test(priority = 1, description = "Valid credential")
-    public void doLoginWithValidCred() throws InterruptedException {
-        LoginPage loginPage = new LoginPage(driver);
+    public void doLoginWithValidCred() throws InterruptedException, IOException {
+        test=extent.createTest("Do login with valid cred");
+        LoginPage loginPage = new LoginPage(driver,node);
         loginPage.login("Admin", "admin123"); //Login
-        Thread.sleep(2000);
+        test.pass("Login Successfully");
 
+        Thread.sleep(2000);
         //Assertion
         WebElement MatchText = driver.findElement(By.xpath("//span/h6[text()='Dashboard']"));
         String TextActual = MatchText.getText();

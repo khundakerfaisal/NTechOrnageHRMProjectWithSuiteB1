@@ -8,10 +8,12 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
+import static Pages.LoginPage.node;
+
 public class LoginWithJson extends Setup {
     @Test(priority = 1,description = "Login With Json",groups = "smoke")
     public void userLogin() throws IOException, ParseException, InterruptedException {
-        LoginPage loginPage = new LoginPage(driver);
+        LoginPage loginPage = new LoginPage(driver,node);
         String username = UtilsPage.getUser().get("Username").toString();
         String password = UtilsPage.getUser().get("Password").toString();
         loginPage.login(username,password);
